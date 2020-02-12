@@ -1,0 +1,15 @@
+{
+  "name": "master",
+  "version": "1.0.0",
+  "description": "loading screen",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o scss/ --recursive",
+    "build": "npm run"
+  },
+  "author": "tayy <tayy@38tayy.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
